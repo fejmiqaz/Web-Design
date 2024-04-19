@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    width: 800px;
+    height: 600px;
+}
+header{
+    margin-top: 30px;
+}
+ul {
+    padding: 3px;
+    margin-left: 125px;
+    font-size: 18px;
+    position: relative;
+    color: white;
+}
+ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    display: inline;
+}
+a{
+    color: white;
+    align-content: center;
+    text-decoration: none;
+    font-family: "Baskerville Old Face", sans-serif;
+}
+h1{
+    padding: 5px;
+    color: #92CD00;
+    font-size: 26px;
+    text-align: center;
+}
+p{
+    color: #192402;
+    text-align: justify;
+    margin: 5px;
+}
+footer{
+    color: #ffffff;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    background-color: #81b518;
+    height: 30px;
+}
+.navigation{
+    width: 800px;
+    height: 30px;
+    position: absolute;
+}
+.leaf{
+    position: absolute;
+    height: 120px;
+    top: 0;
+    left: 0;
+}
+.contentPosition{
+    margin-top: 100px;
+    height: 420px;
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+}
