@@ -1,0 +1,56 @@
+body{
+    background-color: antiquewhite;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family: "Sans Serif Collection", monospace;
+}
+h2 {
+    color: #192402;
+}
+
+a {
+    align-content: center;
+    justify-content: center;
+}
+
+ul {
+    color: black;
+}
+ul ul {
+    color: #81b518;
+}
+
+ol{
+    color: blue;
+}
+ul ul ul li {
+    color: red;
+    text-decoration: underline;
+}
+
+div {
+    width: 1000px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: left;
+}
+
+.secondHeaders {
+    text-align: center;
+    margin-top: 5px;
+    border-style: solid;
+    background-color: lightsteelblue;
+    border-radius: 15px;
+    border-color: blue;
+    border-width: 2px;
+}
