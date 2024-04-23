@@ -1,0 +1,36 @@
+header {
+    background-color: #192402;
+    color: white;
+    text-align: center;
+    font-family: "Albertus Extra Bold", sans-serif;
+    font-size: 20px;
+    height: 80px;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    width: 600px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+ul {
+    margin: 2px;
+}
+ul li {
+    margin: 2px;
+    padding: 3px;
+}
+ul ul li {
+    margin: 2px;
+    padding: 5px;
+}
