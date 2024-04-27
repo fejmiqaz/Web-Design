@@ -1,0 +1,110 @@
+body {
+    background-image: url("images/img_1.png");
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+footer {
+    justify-content: center;
+    background-image: url("images/img_1.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    padding: 5px;
+    height: 150px;
+    display: flex;
+}
+h1 {
+    margin-left: 60px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    text-decoration-color: white;
+    font-family: "Work Sans", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-family: "Work Sans", Helvetica, Arial, sans-serif;
+}
+
+a {
+    padding: 2px;
+    text-decoration: none;
+    color: white;
+    font-family: "Work Sans", Arial Rounded MT, serif;
+}
+button {
+    align-items: center;
+    font-size: 20px;
+    background-color: #cc2235;
+    border-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+nav {
+    background-image: url("images/img_1.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    padding: 5px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+ul {
+    margin-left: 180px;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+ul li {
+    margin-right: 10px;
+}
+a:hover,
+button:hover {
+    background-color: white;
+    color: #cc2235;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    margin: 5px;
+    padding: 5px;
+    background-color: #a07f43;
+    border-color: white;
+    width: 600px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+ol {
+    font-size: 20px;
+}
+
+ol li {
+    margin: 5px;
+    color: white;
+    font-size: 25px;
+}
+
+li.Participants {
+    text-align: center;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #cc2235;
+    margin: 5px;
+}
