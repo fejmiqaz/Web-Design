@@ -1,0 +1,263 @@
+body {
+    width: 99%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .navbar-header .main-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-right: 15px;
+    margin-left: 50px;
+}
+
+.navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+.navbar-toggle .icon-bar {
+    width: 22px;
+    height: 2px;
+    background-color: white;
+    margin: 3px 0;
+}
+
+.main-navigation {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-navigation li {
+    margin-left: 10px;
+}
+.main-navigation a {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    color: black;
+}
+
+/*.parallax-section {*/
+/*    padding: 100px 0;*/
+/*    text-align: center;*/
+/*    position: relative;*/
+/*}*/
+#home {
+    width: 100%;
+    background-image: url("images/home-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: darkgoldenrod;
+    font-family: "Albertus Extra Bold", sans-serif ;
+}
+h1 {
+    text-align: center;
+    font-size: 5em;
+    font-family: "Agency FB", Arial Rounded MT, sans-serif;
+    margin: 30px;
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-danger {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: goldenrod;
+
+}
+.btn-danger:hover {
+    background-color: #192402;
+}
+.btn-default {
+    text-align: center;
+    background-color: #192402;
+}
+.btn-default:hover {
+    background-color: goldenrod;
+}
+
+#about {
+    display: inline-block;
+    width: 100%;
+}
+
+#about img {
+    float: left;
+    margin-right: 70px;
+}
+
+#about h3 {
+    font-size: 2em;
+    text-align: left;
+}
+
+#about h4 {
+    font-size: 1.2em;
+    color: black;
+}
+
+.about-des{
+    font-size: 1em;
+    text-align: left;
+    width: 650px;
+    color: darkgray;
+}
+
+#contact .container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#contact .container > * {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/*#blog {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*#blog .container {*/
+/*    display: flex;*/
+/*}*/
+
+#blog .container .row {
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+#blog .container .row .blog-masonry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+#blog .container .row .blog-masonry .post-masonry {
+    border: 1px black solid;
+    padding: 5px;
+    margin: 5px;
+}
+#blog .container .row .blog-masonry .post-masonry a {
+    text-decoration: none;
+    color: black;
+}
+
+#contact .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact .container .row .col-md-6 .col-md-12 {
+    display: grid;
+    margin: 15px;
+    width: 40em;
+    padding: 3px;
+}
+
+#contact .container .row .col-md-6 .col-md-12 input, textarea {
+    margin: 3px;
+}
+
+#contact .container .row .col-md-6 .col-md-12 .form-control {
+    padding: 5px;
+}
+
+#contact .container .row .col-md-6 .col-sm-6 input {
+    background-color: burlywood;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+#contact .container .row .col-md-6 .contact-detail {
+    display: grid;
+    padding: 5px;
+    margin: 15px;
+}
+#contact .container .row .col-md-6 .contact-detail div, h4 {
+    text-align: left;
+    padding: 5px;
+}
+footer .container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .container .row .col-md-6 {
+    width: 500px;
+    text-align: justify;
+    margin: 30px;
+}
+footer .container .row .link-list {
+    display: grid;
+    margin: 15px;
+}
+footer .container .row .link-list a {
+    text-decoration: none;
+    padding: 3px;
+}
