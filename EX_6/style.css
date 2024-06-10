@@ -249,13 +249,13 @@ footer .container .row {
     align-items: center;
 }
 footer .container .row .col-md-6 {
-    width: 500px;
+    width: 300px;
     text-align: justify;
     margin: 30px;
 }
 footer .container .row .link-list {
     display: grid;
-    margin: 15px;
+    margin: 30px;
 }
 footer .container .row .link-list a {
     text-decoration: none;
